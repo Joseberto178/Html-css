@@ -6,6 +6,13 @@
     <title>formulario</title>
 </head>
 <body>
-    
+    <h1>exemplo de formulario</h1>
+    <form action="cadastro.php" method="get" autocomplete="on"></form>
+
+    <p>
+      <label for="iano">em que ano voce nasceu</label>
+      <input type="number" name="ano" id="iano" min="1900" max="2025"
+      oninput="calcidade()">
+    </p>
 </body>
 </html>
